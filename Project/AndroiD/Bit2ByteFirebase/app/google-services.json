@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "461174960599",
+    "firebase_url": "https://bit2byte-w8.firebaseio.com",
+    "project_id": "bit2byte-w8",
+    "storage_bucket": "bit2byte-w8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461174960599:android:6035c691bd95343c",
+        "android_client_info": {
+          "package_name": "com.banglatech.delowar.bit2bytefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461174960599-netd8557pj7tu313n2b8k7enc0j539rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3qdHFDiSpi9AG0NAemi9BKWwzPKQb2Is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="5sp"
+    >
+   <TextView
+       android:id="@+id/tv"
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:theme="@style/AppTheme"
+       android:textSize="20sp"
+       android:textColor="#860000"
+       android:textStyle="bold"
+       android:text=""
+       android:layout_margin="10sp"
+       />
+    <Button
+        android:id="@+id/bt"
+        android:layout_margin="5sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Time"
+        android:textStyle="bold"
+        android:textColor="#017001"
+        android:textSize="20sp"
+        android:backgroundTintMode="screen"
+        android:background="#eadbdb"/>
+
+</LinearLayout>

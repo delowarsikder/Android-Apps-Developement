@@ -1,0 +1,11 @@
+Stub index points to a file without PSI: com.intellij.ide.highlighter.JavaClassFileType@5d30a694
+
+//this point select and search in google search engin
+
+//1.Error can not resolve activitys 
+sol: Start Android Studio and click File -> Invalidate Cache and Restart.
+
+//2.cannot resolve r activity problem
+
+//3.Unable to resolve dependency for ':app@debugAndroidTest/compileClasspath': Could not download support-annotations.jar (com.android.support:support-annotations:25.4.0)
+

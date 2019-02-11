@@ -1,0 +1,3 @@
+getSupportActionBar.SetDisplayHome(true)
+
+not suport Android studio

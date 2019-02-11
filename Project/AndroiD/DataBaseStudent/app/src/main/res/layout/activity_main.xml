@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Roll :"
+            android:textColor="#ff32"/>
+
+        <EditText
+            android:id="@+id/roll_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Roll "
+            android:textStyle="bold"
+            android:textColor="#ff22"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Name :"
+            android:textColor="#ff32"/>
+
+        <EditText
+            android:id="@+id/name_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:textStyle="bold"
+            android:textColor="#ff22"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Age :"
+            android:textColor="#ff32"/>
+
+        <EditText
+            android:id="@+id/age_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Age"
+            android:textStyle="bold"
+            android:textColor="#ff22"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Gender :"
+            android:textColor="#ff32"/>
+
+        <EditText
+            android:id="@+id/gender_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:hint="Student gender"
+            android:textColor="#ff22"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/saveId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5sp"
+            android:background="#58014c"
+            android:text="Save"
+            android:textColor="#fafcf9"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/showId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5sp"
+            android:background="#365402"
+            android:text="Show"
+            android:textColor="#fafcf9"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/updateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5sp"
+            android:background="#013258"
+            android:text="Update"
+            android:textColor="#fafcf9"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/deleteId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5sp"
+            android:background="#58011e"
+            android:text="delete"
+            android:textColor="#fafcf9"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">CountryProfile</string>
+    <string name="bd_txt">Bangladesh</string>
+    <string name="in_txt">India</string>
+    <string name="pak_txt">Pakistan</string>
+    <string name="title_txt">This is alert</string>
+    <string name="message_txt">Do you want to exit ?</string>
+
+
+
+    <string name="pak_text">
+        Pakistan___Some of great novels about happiness
+Colwin, Laurie. Happy All the Time.
+McEwan, Ian. Saturday.
+Patchett, Ann. Bel Canto.
+Robinson, Marilynne. Gilead.
+Stegner, Wallace. Crossing to Safety.
+        Testing and Debugging. Testing and debugging are best described as \art"
+rather than \technical". There are a lot of general-purpose discussions on this
+topic. There are also tips specially for competitors, as in Section 2.7 of [3]. In
+order to improve, never separate coding from testing and debugging. Clean and
+elegant codes are usually easier to test and debug than long and confusing codes,
+so you should always take into account testing and debugging di–culty in your
+code training. An important feature in ICPC is that three people have only one
+computer, so it’s often risky to flnd an unknown bug of a complex program by
+tracing (i.e. stepping or running with breakpoints, inspect watches etc), since it
+usually takes a lot of time. A good way to avoid tracing is to force yourself to
+write programs in text editors like EditPlus, with shortcut keys only to compile
+and run your program. Adding some debugging outputs in addition to what is
+asked in the problem description usually helps, but it is again an art. It’s also
+helpful to learn some language tricks (macros, assertions etc), but the philosophy
+behind your testing and debugging method is the most crucial.
+Tolstoy, Leo. Anna Karenina.</string>
+
+    <string name="In_txt">
+        India----Faber, Adele. How To Talk So Kids Will Listen and Listen So
+Kids Will Talk.
+Fisher, Helen. Why We Love: the Nature and Chemistry of
+Romantic Love.
+Gottman, John. The Seven Principles for Making Marriage
+Work.
+Sutton, R. The No Asshole Rule: Building a Civilized
+Workplace and Surviving One That Isn’t
+    Testing and Debugging. Testing and debugging are best described as \art"
+rather than \technical". There are a lot of general-purpose discussions on this
+topic. There are also tips specially for competitors, as in Section 2.7 of [3]. In
+order to improve, never separate coding from testing and debugging. Clean and
+elegant codes are usually easier to test and debug than long and confusing codes,
+so you should always take into account testing and debugging di–culty in your
+code training. An important feature in ICPC is that three people have only one
+computer, so it’s often risky to flnd an unknown bug of a complex program by
+tracing (i.e. stepping or running with breakpoints, inspect watches etc), since it
+usually takes a lot of time. A good way to avoid tracing is to force yourself to
+write programs in text editors like EditPlus, with shortcut keys only to compile
+and run your program. Adding some debugging outputs in addition to what is
+asked in the problem description usually helps, but it is again an art. It’s also
+helpful to learn some language tricks (macros, assertions etc), but the philosophy
+behind your testing and debugging method is the most crucial.</string>
+
+    <string name="Bd_txt">Bangladesh____Gilbert, Daniel. Stumbling on Happiness.
+Haidt, Jonathan. The Happiness Hypothesis.
+Lyubomirsky, Sonja. The How of Happiness.
+Nettle, Daniel. Happiness: The Science Behind Your Smile.
+Nettle, Daniel. Personality: What Makes You the Way You
+Are
+Nhat Hanh, Thich. The Miracle of Mindfulness.
+Schwartz, Barry. The Paradox of Choice: Why More is Less.
+Seligman, Martin. Authentic Happiness.
+        Testing and Debugging. Testing and debugging are best described as \art"
+rather than \technical". There are a lot of general-purpose discussions on this
+topic. There are also tips specially for competitors, as in Section 2.7 of [3]. In
+order to improve, never separate coding from testing and debugging. Clean and
+elegant codes are usually easier to test and debug than long and confusing codes,
+so you should always take into account testing and debugging di–culty in your
+code training. An important feature in ICPC is that three people have only one
+computer, so it’s often risky to flnd an unknown bug of a complex program by
+tracing (i.e. stepping or running with breakpoints, inspect watches etc), since it
+usually takes a lot of time. A good way to avoid tracing is to force yourself to
+write programs in text editors like EditPlus, with shortcut keys only to compile
+and run your program. Adding some debugging outputs in addition to what is
+asked in the problem description usually helps, but it is again an art. It’s also
+helpful to learn some language tricks (macros, assertions etc), but the philosophy
+behind your testing and debugging method is the most crucial.
+Dalai Lama. The Art of Happiness.</string>
+</resources>

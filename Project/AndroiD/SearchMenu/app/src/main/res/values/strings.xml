@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SearchMenu</string>
+    <string-array name="varsity_name">
+        <item> KUET </item>
+        <item> BUET </item>
+        <item>RUET</item>
+        <item>CUET</item>
+        <item>DUET</item>
+        <item> KU </item>
+        <item> BU </item>
+        <item>RU</item>
+        <item>CU</item>
+        <item>DU</item>
+        <item>RU</item>
+        <item>BSMRSTU</item>
+        <item>JU</item>
+        <item>JnU</item>
+        <item>SUST</item>
+        <item>PSTU</item>
+        <item>HSTU</item>
+        <item>JUST</item>
+        <item>NSTU</item>
+
+    </string-array>
+</resources>

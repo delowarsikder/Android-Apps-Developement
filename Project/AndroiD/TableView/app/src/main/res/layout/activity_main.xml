@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_span="0"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tableR1"
+        android:background="#025a64"
+        android:divider="#ff01">
+
+
+        <TextView
+            android:text="Student Details"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10sp"
+            android:layout_span="4"
+            android:padding="5sp"
+            android:background="#ff02"
+            android:layout_margin="3dp"
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableR2"
+        android:background="#310264">
+
+        <TextView
+            android:text="Student ID"
+            android:layout_gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:text="Name"
+            android:layout_gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:text="Result"
+            android:layout_gravity="center_horizontal"
+            android:padding="10sp"
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableR3"
+        android:background="#08bf04">
+
+
+        <TextView
+            android:layout_margin="3dp"
+            android:layout_marginBottom="10sp"
+            android:padding="5sp"
+            android:text="1607000 "
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Unknown"
+            android:layout_marginBottom="10sp"
+            android:padding="5sp"
+            android:layout_margin="3dp"
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:text="No Publish"
+            android:layout_marginBottom="10sp"
+            android:padding="2sp"
+            android:layout_margin="3dp"
+            android:textColor="#fafaf7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+    </TableRow>
+
+</TableLayout>

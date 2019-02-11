@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5sp"
+    android:background="#041fab"
+    tools:context=".MainActivity">
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:textColor="#02f702"/>
+
+    <Button
+
+        android:id="@+id/bD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fcfcfc"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:drawableLeft="@mipmap/bd"
+        android:text="@string/bd_txt"/>
+
+    <Button
+        android:id="@+id/ind"
+        android:drawableLeft="@mipmap/in"
+        android:textColor="#fcfcfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_txt"
+        android:textSize="30sp"
+        android:textStyle="bold"
+       />
+
+    <Button
+        android:id="@+id/pk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/pk"
+        android:text="@string/pak_txt"
+        android:textColor="#fcfcfc"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

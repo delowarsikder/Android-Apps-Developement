@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    tools:context=".MainActivity">
+
+   <TimePicker
+       android:id="@+id/tp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:timePickerMode="clock"
+       android:foregroundGravity="center_horizontal"
+       android:layout_margin="5sp"
+       android:outlineAmbientShadowColor="#0549f4"
+       android:theme="@style/AppTheme"
+       android:numbersInnerTextColor="#e90d0d">
+
+   </TimePicker>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_margin="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Date"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#7f00c4"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hell"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="5sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

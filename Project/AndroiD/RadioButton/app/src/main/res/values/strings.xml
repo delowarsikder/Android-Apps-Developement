@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RadioRatingButton</string>
+    <string name="menu_txt">select your option</string>
+    <string name="value_1">Male</string>
+    <string name="value_2">Female</string>
+    <string name="clicked_txt">Show</string>
+    <string name="submit_txt">Submit</string>
+</resources>

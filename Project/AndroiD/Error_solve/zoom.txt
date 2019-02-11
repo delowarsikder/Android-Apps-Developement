@@ -1,0 +1,2 @@
+whem zoom out this image is rotate down
+when set condition zoom out not work 

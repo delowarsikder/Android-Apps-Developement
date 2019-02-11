@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="#00ffff"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/tv1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/edit_txt"
+       android:layout_marginLeft="20sp"
+       android:textSize="20sp"/>
+
+   <CheckBox
+       android:id="@+id/cb1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:text="@string/item1"
+       android:textStyle="bold"
+       android:padding="10dp" />
+
+   <CheckBox
+       android:id="@+id/cb2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:text="@string/item2"
+       android:textStyle="bold"
+       android:padding="10dp"
+       />
+
+   <CheckBox
+       android:id="@+id/cb3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:text="@string/item3"
+       android:textSize="20sp"
+       android:textStyle="bold" />
+
+<Button
+    android:id="@+id/b1"
+    android:background="#faf8f8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/Button1"
+    android:textSize="20dp"
+    android:layout_margin="10dp"
+    android:textStyle="bold"/>
+
+   <TextView
+       android:id="@+id/tv2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:padding="10sp"
+       android:textSize="20sp"
+       android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
